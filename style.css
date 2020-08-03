@@ -72,15 +72,11 @@ body {
     height: 400px;
     border-radius: 30%;
     padding: 35px ;
-    position: ;
-   
   }
 
   #name-card{
    width: 100%;
    grid-column:1/span 2 ;
-
-    
   }
 
   h2 {

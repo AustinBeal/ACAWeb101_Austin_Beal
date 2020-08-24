@@ -6,17 +6,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./resumestyle.css">
+  <script src="./interactive-resume.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
   <title>Resume</title>
 </head>
 <body>
   <maincontainer>
     <h1>
-     <header class="isabelle">Isabelle
-     <p class="minorheader">isabell@tomnookinc.com</p>
+     <header class="isabelle" >
+       <h1 id="headerisa" > Isabelle</h1>
+     <p class="minorheader" id="contactemail" onclick="disapearingAct()">isabell@tomnookinc.com</p>
      <p>Executive Secretary</p>
-     <p class="minorheader">“A good attitude will always take you further than a bad habit.”</p>
+     <p>“A good attitude will always take you further than a bad habit.”</p>
      </header>
-     <img  src="./isaextra.jpg" id="isa-prof" alt="picture of isabelle in cartoon form" ></img>
+     <img onclick="disapearingImg()" src="./isaextra.jpg" id="isa-prof" alt="picture of isabelle in cartoon form"  class="animate__animated animate__bounceInRight"></img>
    </h1>
   <aside>
     <h2>WHO I AM</h2>
